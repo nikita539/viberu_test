@@ -1,4 +1,4 @@
-
+@import "assets/fonts.css";
 :root {
     --button-color: rgb(13, 209, 73);
     --color-blue: #00afff;
@@ -15,6 +15,7 @@ body {
     height: 100vh;
     background-color: var(--color-grey-1);
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -42,6 +43,7 @@ body {
     font-size: 1em;
     display: inline;
     white-space: nowrap;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
 
@@ -50,6 +52,7 @@ body {
     font-size: 1em;
     white-space: nowrap;
     border-bottom: 1px solid;
+    font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
 }
 
