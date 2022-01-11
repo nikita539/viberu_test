@@ -6,8 +6,9 @@ type InputPropsType = {
     type?: string,
 }
 
-const Input = ({type = '', label = '', placeholder = ''}: InputPropsType) => {
+const InputSelector = ({type = '', label = '', placeholder = ''}: InputPropsType) => {
     const [value, setValue] = React.useState('')
+
     return (
         <div className='input__label-container'>
             <label className='input__label'>{label}</label>
@@ -22,4 +23,4 @@ const Input = ({type = '', label = '', placeholder = ''}: InputPropsType) => {
     )
 }
 
-export default Input;
+export default InputSelector;

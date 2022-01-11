@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from "./input";
+import InputRange from "./inputRange";
 
 const Header = () => {
     return (
@@ -17,19 +17,20 @@ const Header = () => {
             </div>
             <div className='container'>
                 <div className='input__container'>
-                    <Input
+                    <InputRange
                         label="Цель ипотеки"
+                        type='range'
                         placeholder="Hello World"
                     />
-                    <Input
+                    <InputRange
                         label="Стоимость недвижимости"
                         placeholder="Hello World"
                     />
-                    <Input
+                    <InputRange
                         label="Первоначальный взнос"
                         placeholder="Hello World"
                     />
-                    <Input
+                    <InputRange
                         label="Срок"
                         placeholder="Hello World"
                     />
