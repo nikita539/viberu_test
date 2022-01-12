@@ -19,11 +19,11 @@ const InputRange = ({label = '', placeholder = ''}: InputPropsType) => {
                 placeholder={placeholder}
             />
             <input
+                className='input-range'
                 type='range'
                 min='0'
                 max='99000000'
                 onChange={(e) => {setRangeValue(e.currentTarget.value + '')}}
-                style={{ width: '100%', height: 0 }}
             />
         </div>
     )

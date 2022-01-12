@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="985ae24b-db15-4c25-9f29-72951e8d8b4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/inputRange.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/inputSelector.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/helpers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputSelector.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +62,8 @@
       <updated>1641753485030</updated>
       <workItem from="1641753486827" duration="5007000" />
       <workItem from="1641810967958" duration="1061000" />
-      <workItem from="1641896389479" duration="12668000" />
+      <workItem from="1641896389479" duration="14074000" />
+      <workItem from="1641981075390" duration="13342000" />
     </task>
     <servers />
   </component>
@@ -62,17 +75,17 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="511" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.43.1536.821@0.43.1536.821" timestamp="1641898827810" />
-    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1641907547755">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1641992942076">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1641907547755" />
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1641992942076" />
     <state x="147" y="108" key="DiffContextDialog" timestamp="1641907546997">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="147" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1641907546997" />
-    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1641755637442">
+    <state x="478" y="186" width="579" height="534" key="find.popup" timestamp="1641983908264">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1641755637442" />
+    <state x="478" y="186" width="579" height="534" key="find.popup/0.43.1536.821@0.43.1536.821" timestamp="1641983908264" />
   </component>
 </project>

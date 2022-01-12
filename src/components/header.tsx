@@ -1,5 +1,7 @@
 import React from 'react';
 import InputRange from "./inputRange";
+import InputSelector from "./inputSelector";
+import Button from "./button";
 
 const Header = () => {
     return (
@@ -26,14 +28,18 @@ const Header = () => {
                         label="Стоимость недвижимости"
                         placeholder="Hello World"
                     />
-                    <InputRange
-                        label="Первоначальный взнос"
-                        placeholder="Hello World"
+                    <InputSelector
+                        label='Цель ипотеки'
+                        initialPlaceholder='Любая'
+                        items={['1','2','3','4','5','6','7','8']}
                     />
-                    <InputRange
-                        label="Срок"
-                        placeholder="Hello World"
+                    <InputSelector
+                        initialPlaceholder='Любой'
+                        label='Срок'
+                        items={['1','2','3','4','5','6','7','8']}
                     />
+                    <Button title='Ещё +'/>
+                    <Button title='Показать' classes='button__color'/>
                 </div>
             </div>
         </header>

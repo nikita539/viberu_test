@@ -1,24 +1,27 @@
 import React from 'react';
 
 type InputPropsType = {
+    initialPlaceholder: string,
     label?: string,
-    placeholder?: string,
-    type?: string,
+    items?: Array<any>,
 }
 
-const InputSelector = ({type = '', label = '', placeholder = ''}: InputPropsType) => {
-    const [value, setValue] = React.useState('')
-
+const InputSelector = ({label = '', items = [], initialPlaceholder}: InputPropsType) => {
+    const [selectedValue, setSelectedValue] = React.useState(initialPlaceholder)
+    const [showList, setShowList] = React.useState(false)
     return (
         <div className='input__label-container'>
             <label className='input__label'>{label}</label>
-            <input
-                onChange={(e) => {setValue(e.currentTarget.vale)}}
-                value={value}
-                className="input"
-                type={type}
-                placeholder={placeholder}
-            />
+            <div className='input__selector' id='selector' onClick={() => setShowList(!showList)}>
+                {selectedValue}
+            </div>
+            <ul className='input__selector-items' id='list' style={{ display: showList ? 'block' : 'none'  }}>
+                {items.map((i, index) => (<li
+                    key={index}
+                    className='input__selector-item'
+                    onClick={() => {setSelectedValue(i)}}
+                >{i}</li>))}
+            </ul>
         </div>
     )
 }
