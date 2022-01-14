@@ -128,6 +128,10 @@ body {
     font-size: 100%;
 }
 
+.input__selector:hover {
+    border: 1px solid var(--button-color);
+}
+
 .input-range {
     width: 100%;
     height: 0;
